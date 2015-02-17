@@ -1,6 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="utf8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
     <!-- 1. Load webcomponents.min.js for polyfill support. -->
     <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
 
@@ -15,12 +19,18 @@
           href="bower_components/core-scaffold/core-scaffold.html">
     <link rel="import"
           href="bower_components/geo-location/geo-location.html">          
+    <link rel="import"
+          href="bower_components/paper-icon-button/paper-icon-button.html">   
+    <link rel="stylesheet" href="gitrush.css">
   </head>
-  <body>
+  
+  <body fullbleed>
 
     <core-toolbar>
-      <core-icon-button icon="menu"></core-icon-button>
+      <paper-icon-button icon="menu"></paper-icon-button>
       <div>My app</div>
+      <span flex></span>
+      <paper-icon-button icon="search"></paper-icon-button>
     </core-toolbar>
 
     <!--

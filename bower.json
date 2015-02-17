@@ -17,6 +17,7 @@
   "dependencies": {
     "core-elements": "Polymer/core-elements#~0.5.4",
     "paper-elements": "Polymer/paper-elements#~0.5.4",
-    "geo-location": "~0.0.7"
+    "geo-location": "~0.0.7",
+    "paper-icon-button": "Polymer/paper-icon-button#~0.5.4"
   }
 }
