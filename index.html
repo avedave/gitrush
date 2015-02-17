@@ -6,11 +6,37 @@
 
     <!-- 2. Use an HTML Import to bring in the element. -->
     <link rel="import"
+          href="bower_components/core-icons/core-icons.html">
+    <link rel="import"
+          href="bower_components/core-header-panel/core-header-panel.html">
+    <link rel="import"
+          href="bower_components/core-toolbar/core-toolbar.html">
+    <link rel="import"
           href="bower_components/core-scaffold/core-scaffold.html">
+    <link rel="import"
+          href="bower_components/geo-location/geo-location.html">          
   </head>
   <body>
-    <core-scaffold forceNarrow>
-      <div tool flex >Title</div>
+
+    <core-toolbar>
+      <core-icon-button icon="menu"></core-icon-button>
+      <div>My app</div>
+    </core-toolbar>
+
+    <!--
+    <core-scaffold responsiveWidth="1100px">
+
+    <geo-location></geo-location>
+
+    <script>
+      var loc = document.querySelector('geo-location');
+      loc.addEventListener('geo-response', function(e) {
+        console.log('lat:' + this.latitude,
+                    'lng:' + this.longitude);
+      });
+    </script>
+
     </core-scaffold>
+  -->
   </body>
 </html>
